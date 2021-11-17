@@ -1,0 +1,56 @@
+body {
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url("https://media.istockphoto.com/photos/laminate-wooden-floor-texture-background-picture-id1083302826?b=1&k=20&m=1083302826&s=170667a&w=0&h=ePdma8I7u7KHs2YbehQSVcCX9qay5iPr3wynsWnzFZ0=") ;
+}
+
+
+.container {
+  display : grid;
+  grid-template-columns: repeat(16, 1fr);
+  border:1px solid black;
+  height:500px;
+  width:500px;
+}
+
+.square {
+  width: auto;
+  height:auto;
+  background-color:white;
+  border: 1px solid black;
+  display:block;
+}
+
+.highlighted {
+  background-color:#888888;
+}
+
+.resetButton {
+  margin-top:10px;
+  padding: 20px 50px;
+  border-radius:5px;
+  background-color : white;
+  font-family:'Quicksand',sans-serif;
+}
+
+.top {
+  display:flex;
+  font-size: 40px;
+  font-weight:500;
+  font-family:"Comic Sans MS", "Comic Sans", cursive;;
+  align-items: center;
+  padding:0px;
+  margin-top:-20px;
+}
+
+.toy {
+ background-color:#941E11;
+ display:flex;
+ flex-direction:column;
+ align-items: center;
+ padding:25px 100px;
+ margin-top : 50px;
+ border-radius: 20px;
+}
